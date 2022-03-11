@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: [ kubernetes-scaler ]
+    runs-on: [ ephemeral ]
 
     strategy:
       matrix:
