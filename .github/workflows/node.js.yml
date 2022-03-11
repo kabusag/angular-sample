@@ -30,4 +30,4 @@ jobs:
         chrome-version: stable
     - run: npm ci
     - run: npm run build --if-present
-    - run: CHROMIUM_BIN=$(which chrome) npm test
+    - run: CHROME_BIN=$(which chrome) npm test
